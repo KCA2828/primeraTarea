@@ -1,0 +1,41 @@
+.parrafos {
+    display: flex;/*SE IMPLEMENTA ESTE METODO PARA AGRUPAR A LA PAR LOS TEXTOS*/
+}
+
+.parrafo1 {
+    text-align: left;
+    margin-right: 250px;/*CON LOS MARGENES SE LOGRA DAR DISTANCIA ENTRE TEXTOS*/
+}
+
+.parrafo2 {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+
+.parrafo3 {
+    text-align: right;
+    margin-left: 300px;
+    margin-right: 10px;
+}
+
+a {
+    color: yellow;
+}
+
+
+a:hover{/*cuando se sobreposiciona*/
+    background-color: yellow;
+    color: purple;
+}
+
+a:active{/*cuando se activa*/
+    background-color: purple;
+    color: yellow;
+}
+
+a:visited{/*despues de activarlo*/
+    font-size: 20px;
+}
+
+
